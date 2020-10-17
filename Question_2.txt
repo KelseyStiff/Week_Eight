@@ -1,0 +1,8 @@
+The "Property or method "total" is not defined on the instance but is referenced during render"
+
+This error means the total variable is being used but is not defined in the Vue objects data, to
+
+fix the issue, the total variable must be defined within the Vue object data. To fix the issue,
+if you have already defined the variable in the Vue object, check for spelling errors.
+The variable in the the Vue model must match the Vue data.
+
